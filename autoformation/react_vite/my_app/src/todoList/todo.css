@@ -1,0 +1,76 @@
+.container{
+    position: relative;
+    width: 15cm;
+    height: 15cm;
+    border: 16px solid black;
+    overflow-y: auto;
+    transform: translate(70%);
+}
+h1{
+    position: absolute;
+    transform: translate(100%);
+
+}
+.input1{
+    position: absolute;
+    top : 100px;
+    left:100px;
+
+    
+}
+.input2{
+    position: relative;
+    height: 1cm;
+    width: 8cm;
+    border-radius: 5px;
+}
+.add{
+    background-color: green;
+    height: 1.2cm;
+    width: 2cm;
+    border-radius: 5px;
+}
+.delete {
+    margin-right: 2px; /* Espacement entre les boutons */
+    position: relative;
+    background-color: rgb(217, 53, 53);
+    height: 1cm;
+    width: 2cm;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 1rem;
+}
+.delete:hover{
+    background-color: rgb(97, 8, 8);
+}
+.liste{
+   position: relative;
+    width: 10cm;
+    height: 1cm;
+    border: 10px solid rgb(248, 248, 248);
+    transform: translate(5%);
+    top: 4cm;
+    text-align:center;
+    font-size: 2rem;
+    display: flex; /* Utilisation de Flexbox */
+    align-items: center; 
+}
+.text{
+    
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+   
+   
+}
+.move{
+    background-color: rgb(61, 128, 204);
+    margin-right: 2px; /* Espacement entre les boutons */
+    position: relative;
+    height: 1cm;
+    width: 1cm;
+    border-radius: 5px;
+}
+.move:hover{
+    background-color:blue;
+}

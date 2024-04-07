@@ -1,0 +1,33 @@
+.color{
+    transform: translate(50%);
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 16cm;
+    height: 12cm;
+    position: relative;
+}
+.selectColor{
+    top:3cm;
+    left:5.5cm;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 5cm;
+    height: 5cm;
+    position: relative;
+}
+h1{
+position: absolute;
+transform: translate(120%);
+
+}
+input{
+    position: relative;
+    top:5cm;
+    left:5.5cm;
+}
+label{
+    position: relative;
+    top:5cm;
+    left:5cm;
+
+}

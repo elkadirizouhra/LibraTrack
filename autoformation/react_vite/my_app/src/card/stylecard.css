@@ -1,0 +1,28 @@
+.container {
+  width: 11cm;
+  height: 10cm;
+  border: 2px solid black;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+
+.image-container img {
+  
+  width: 6cm; /* diamètre du cercle */
+  height: 6cm; /* diamètre du cercle */
+  position: absolute;
+  top: 0; /* placer l'image au bord supérieur du conteneur */
+  left: 50%; /* placer l'image horizontalement au centre */
+  transform: translateX(-50%); /* centrage horizontal */
+  border-radius: 50%; /* pour créer un cercle */
+}
+
+.text-container {
+  position: absolute;
+  bottom: 0px;
+  width: 90%;
+  text-align:center;
+  padding: 5px;
+}

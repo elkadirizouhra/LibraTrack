@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px solid grey;
+    width: 20cm;
+    height: 5cm;
+    margin: auto; /* Pour centrer horizontalement */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    
+    margin: 3px;
+    height: 1cm;
+    width: 3cm;
+    border-radius: 20px;
+    color:white;
+    background-color: rgb(35, 67, 243);
+}
